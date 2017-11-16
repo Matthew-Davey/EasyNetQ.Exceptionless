@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Version>0.1.0</Version>
+    <DocumentationFile>bin\$(Configuration)\netstandard2.0\EasyNetQ.Exceptionless.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Matt Davey</Authors>
+    <Description>Submit EasyNetQ message consumer errors to Exceptionless.</Description>
+    <Copyright>© Matt Davey 2017</Copyright>
+    <PackageProjectUrl>https://github.com/Matthew-Davey/EasyNetQ.Exceptionless</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/Matthew-Davey/EasyNetQ.Exceptionless/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/Matthew-Davey/EasyNetQ.Exceptionless.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>easynetq rabbitmq amqp error-handling exceptionless</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EasyNetQ" Version="2.2.0" />
+    <PackageReference Include="Exceptionless" Version="4.1.1972" />
+  </ItemGroup>
+
+</Project>
