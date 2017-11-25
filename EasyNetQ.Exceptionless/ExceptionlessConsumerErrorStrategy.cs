@@ -27,7 +27,7 @@
                 return base.HandleConsumerError(context, exception);
             }
             finally {
-                var eventBuilder = exception.ToExceptionless();
+                var eventBuilder = exception.ToExceptionless(client: _client);
 
                 _intercept?.Invoke(eventBuilder, context);
 

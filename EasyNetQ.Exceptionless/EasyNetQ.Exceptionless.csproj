@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <Version>0.1.1</Version>
-    <DocumentationFile>bin\$(Configuration)\netstandard2.0\EasyNetQ.Exceptionless.xml</DocumentationFile>
+    <Version>0.1.3</Version>
+    <DocumentationFile>bin\$(Configuration)\net451\EasyNetQ.Exceptionless.xml</DocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup>
